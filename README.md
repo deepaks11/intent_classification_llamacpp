@@ -71,9 +71,9 @@ For GPU support, you'll need the following:
   conda install -c conda-forge faiss-gpu
   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
   pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
-
-2. If `llama-cpp-python` is not installed for GPU, refer to the [official installation guide](https://github.com/abetlen/llama-cpp-python).
 ```
+2. If `llama-cpp-python` is not installed for GPU, refer to the [official installation guide](https://github.com/abetlen/llama-cpp-python).
+
 ## Links
 - For more details on the integration with LlamaCpp, refer to the https://python.langchain.com/v0.2/docs/integrations/llms/llamacpp
 - Download the model from Hugging Face and place it in the appropriate directory https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF.

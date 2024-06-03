@@ -1,7 +1,6 @@
 # Intent Classification Using LangChain and LlamaCpp
 
-This project leverages LangChain with the LlamaCpp model to identify intents using a text generation LLM model, specifically OpenChat-3.5-0106.Q4_K_M.gguf. The project incorporates various tools from LangChain to create a robust intent identification system.
-
+This project uses LangChain integrated with the LlamaCpp model to perform intent classification through advanced text generation. Specifically, it employs the OpenChat-3.5-0106.Q4_K_M.gguf model. By leveraging various tools from LangChain, such as the RecursiveCharacterTextSplitter, FAISS vector stores, and HuggingFaceEmbeddings, the project constructs a comprehensive system for accurate intent identification.
 ## Features
 
 - Intent identification using text generation LLM model

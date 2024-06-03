@@ -1,6 +1,6 @@
 # Intent Classification Using LangChain and LlamaCpp
 
-This project uses LangChain integrated with the LlamaCpp model to perform intent classification through advanced text generation. Specifically, it employs the OpenChat-3.5-0106.Q4_K_M.gguf model. By leveraging various tools from LangChain, such as the RecursiveCharacterTextSplitter, FAISS vector stores, and HuggingFaceEmbeddings, the project constructs a comprehensive system for accurate intent identification.
+This project uses LangChain integrated with the LlamaCpp model to perform intent classification through advanced text generation. Specifically, it employs the OpenChat-3.5-0106.Q4_K_M.gguf model. By leveraging various tools from LangChain, such as the RecursiveCharacterTextSplitter, FAISS vector stores, and HuggingFaceEmbeddings, the project constructs a comprehensive system for accurate intent identification. For more details on the integration with LlamaCpp, refer to the https://python.langchain.com/v0.2/docs/integrations/llms/llamacpp/.
 ## Features
 
 - Intent identification using text generation LLM model
@@ -60,7 +60,6 @@ torchvision
 torchaudio
 llama-cpp-python
 ```
-
 ### GPU
 
 For GPU support, you'll need the following:
@@ -74,6 +73,10 @@ For GPU support, you'll need the following:
 
 2. If `llama-cpp-python` is not installed for GPU, refer to the [official installation guide](https://github.com/abetlen/llama-cpp-python).
 ```
+## Links
+- For more details on the integration with LlamaCpp, refer to the https://python.langchain.com/v0.2/docs/integrations/llms/llamacpp
+- Download the model from Hugging Face and place it in the appropriate directory https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF.
+ 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.

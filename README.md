@@ -41,7 +41,7 @@ To install and run this project locally, follow these steps:
    pip install -r requirements.txt
 
 4. Run the Project
-   python main.py
+   python run_cpu.py or run_gpu.py
 ```
 
 ## Requirements

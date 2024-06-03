@@ -81,8 +81,8 @@ For GPU support, you'll need the following:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
-## Author
 
+## Author
 **Deepak.s**
 - [GitHub](https://github.com/deepaks11)
 - [Email](mailto:deepaklsm11@gmail.com)

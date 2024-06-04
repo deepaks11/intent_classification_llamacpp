@@ -49,7 +49,7 @@ To install and run this project locally, follow these steps:
     is there any server available right now, get the configured server details, give me the server details, How many servers have been configured,  
     Can you provide me with an updated list of all our servers [/INST] "intent": "Server List" </s>"
    ```
-### CPU Requirements
+## CPU Requirements
 
 To run this project on a CPU, you'll need the following Python packages:
 
@@ -64,7 +64,7 @@ torchvision
 torchaudio
 llama-cpp-python
 ```
-### GPU Requirements
+## GPU Requirements
 
 For GPU support, you'll need the following:
 

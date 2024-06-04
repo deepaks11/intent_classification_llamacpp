@@ -43,10 +43,13 @@ To install and run this project locally, follow these steps:
 4. Run the Project
    python run_cpu.py or run_gpu.py
 ```
-
-## Requirements
-
-### CPU
+## Dataset Format
+   ```sh
+   "</s>[INST] this intent about the server list and the intent associated with the server, can you give me a servers list,
+    is there any server available right now, get the configured server details, give me the server details, How many servers have been configured,  
+    Can you provide me with an updated list of all our servers [/INST] "intent": "Server List" </s>"
+   ```
+### CPU Requirements
 
 To run this project on a CPU, you'll need the following Python packages:
 
@@ -61,7 +64,7 @@ torchvision
 torchaudio
 llama-cpp-python
 ```
-### GPU
+### GPU Requirements
 
 For GPU support, you'll need the following:
 

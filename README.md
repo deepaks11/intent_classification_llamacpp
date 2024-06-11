@@ -20,7 +20,7 @@ This project uses LangChain integrated with the LlamaCpp model to perform intent
 
 # Hardware Requirements
 
-  - CPU: Minimum 16 GB RAM and Intel i7 processor
+  - CPU: Minimum 32 GB RAM and Intel i7 processor
   - GPU: Minimum RTX 3060 with 8 GB RAM
 
 ## Installation Instructions

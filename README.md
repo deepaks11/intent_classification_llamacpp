@@ -14,7 +14,7 @@ This project uses LangChain integrated with the LlamaCpp model to perform intent
 
 # System Requirements
   Ensure your system meets the following software requirements:
-  - Operating System: Windows, macOS, or Linux
+  - Operating System: Windows
   - Python: Version 3.10 or higher
   - Conda: Anaconda 
 

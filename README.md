@@ -73,7 +73,9 @@ For GPU support, you'll need the following:
 ```sh
   conda install -c conda-forge faiss-gpu
   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-  pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+  set LLAMA_CUDA=on
+  pip install llama-cpp-python==0.2.76 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+
 ```
 2. If `llama-cpp-python` is not installed for GPU, refer to the [official installation guide](https://github.com/abetlen/llama-cpp-python).
 
